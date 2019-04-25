@@ -20,7 +20,7 @@
         db.png
 ```
 ## 环境依赖
-&emsp; 请查看：[requirements.txt]()
+&emsp; 请查看：[requirements.txt](https://github.com/Northxw/Dianping/blob/master/requirements.txt)
 
 ## 抓取流程
 &emsp; 美食店铺首页开始，遍历抓取每页内容。
@@ -51,7 +51,7 @@
 - 随机抓取时延
 
 &emsp; 注意：
-- 加强型爬虫代理非一般隧道或API类型代理IP
+- 加强型爬虫代理非一般隧道或API类型代理IP，成活率较高
 - 原始headers中没有Refer参数，测试发现，添加Refer参数可提高请求头伪装效率
 
 ## 更新记录
@@ -73,7 +73,7 @@
 
 ## 抓取结果
 
-![database screenshot]()
+![database screenshot](https://github.com/Northxw/Dianping/blob/master/view/db.png)
 
 ## 公告
 &emsp; **本代码仅作学习交流，切勿用于商业用途，否则后果自负。若涉及点评网侵权，请邮箱联系，会尽快处理。**
