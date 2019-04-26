@@ -118,7 +118,7 @@ def get_completed_font_424(svg_font_url, css_url, class_list):
 def get_completed_font_425(svg_font_url, css_url, class_list):
     """
     处理文字
-    - 2019/4/24 测试期间规律：svg源码中通过y确定偏移字体所在文本行, 然后通过text[x//divisor]获取正常字符
+    - 2019/4/25 测试期间规律：svg源码中通过y确定偏移字体所在文本行, 然后通过text[x//divisor]获取正常字符
     """
     completed_font = ''
     svg_font_text = re.sub('<\?xml.*?\?>', '', requests.get(svg_font_url).text)
