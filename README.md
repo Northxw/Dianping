@@ -20,7 +20,9 @@
         db.png
 ```
 ## 环境依赖
-&emsp; 请查看：[requirements.txt](https://github.com/Northxw/Dianping/blob/master/requirements.txt)
+```Python
+pip3 install -r requirements.txt
+```
 
 ## 抓取流程
 &emsp; 美食店铺首页开始，遍历抓取每页内容。
