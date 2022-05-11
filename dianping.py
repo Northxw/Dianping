@@ -43,7 +43,7 @@ class Dianping(object):
     def parse_data(self, response):
         res = Selector(text=response.text)
         try:
-            li_list = res.xpath('//*[contains(@class, "shop-all-list")]/ul/li')
+            li_list = res.xpath('//*[contains(@class, "shop-all-list")]/ul/li/@href')
             if li_list:
                 for li in li_list:
                     data = parse(li, self.svg_num_url, self.svg_font_url, self.css_url)
